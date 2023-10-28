@@ -1,0 +1,110 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.wd-container {
+    padding-left: 16px;
+}
+.wd-verified {
+    transform: translateY(25%);
+    width: 25px;
+    height: 25px;
+}   
+
+.wd-logo {
+    width: 17px; 
+    height: auto;
+}
+.wd-search-bar {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.wd-search-bar input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: darkgray;
+    color: white;
+    outline: none;
+}
+
+
+.wd-settings {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wd-settings i {
+    color: lightgray;
+    font-size: 18px;
+    cursor: pointer;
+}
+.wd-gear-link {
+    margin-left: 16px;
+    margin-right: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.wd-nav-links a {
+    font-size: 15px;
+    padding: 16px;
+    color: rgb(110, 118, 125);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+.wd-nav-links .wd-active-link {
+    color: rgb(29, 161, 242);
+    border-bottom-color: rgb(29, 161, 242);
+}
+
+.wd-post {
+    border-bottom: 1px solid rgb(47, 51, 54);
+    padding: 16px 0;
+}
+
+.wd-topic {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-title {
+    margin: 10px 0;
+}
+
+.wd-tuits {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-author {
+    color: white;
+}
+
+.wd-post-image {
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wd-post-with-author, .wd-post-with-topic {
+    position: relative;
+}
+
+.wd-topic-big {
+    font-size: 15px;
+    color: lightgray;
+}

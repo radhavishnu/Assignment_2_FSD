@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background: black;
+    color: white;
+}
+
+body {
+    margin: 8px;
+    height: auto;
+    border: 1px solid rgb(47, 51, 54);
+}
+
+header {
+    padding: 12px 16px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+header > h2 {
+    font-size: 1.25rem;
+}
+header > p {
+    font-size: 0.813rem;
+    color: gray;
+}
+
+.wd-content {
+    height: auto;
+    padding: 12px 16px;
+
+}
+.wd-sub-content {
+    display: flex;
+    font-size: 0.93rem;
+    max-width: 506px;
+}
+.wd-person {
+    margin: 0 16px;
+}
+
+.wd-person > h4 > span {
+    color: grey;
+}
+.wd-icon {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+.wd-subcontent-reply {
+    margin: 12px 0;
+    border: 1px solid grey;
+    max-width:504px;
+    border-radius: 15px;
+    height: auto;
+    overflow: hidden;
+}
+.wd-reply-image {
+    height: 264px;
+    width: 100%;
+}
+.wd-sc-reply-tweet {
+    margin: 12px;
+}
+.wd-sc-reply-tweet > p {
+    color: grey;
+}
+.wd-sc-reply-tweet > span {
+    color: grey;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-options > span{
+    color: grey;
+    margin: 12px;
+}
+
+.wd-options {
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+}
